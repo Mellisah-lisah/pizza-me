@@ -1,0 +1,31 @@
+.first{
+  background-image: url("https://bit.ly/2TkLnZX");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size:100% 800px ;
+}
+.title{
+  text-align: center;
+  float
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+li{
+  float:left;
+}
+li a{
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+h1{
+  text-align: center;
+}
