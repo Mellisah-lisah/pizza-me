@@ -4,10 +4,6 @@
   background-repeat: no-repeat;
   background-size:100% 800px ;
 }
-.title{
-  text-align: center;
-  float
-}
 ul{
   list-style-type: none;
   margin: 0;
@@ -27,5 +23,21 @@ li a{
 
 }
 h1{
+  text-align: center;
+}
+.paragraph{
+  text-align: center;
+}
+.container{
+    box-shadow: 5px 5px 5px gray;
+    height: 250px;
+    width: 20%;
+    border-radius: 10%; 
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: larger; 
+}
+h2{
   text-align: center;
 }
