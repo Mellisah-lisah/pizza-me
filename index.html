@@ -12,7 +12,7 @@
   <header>
     <div>
       <div class="first">
-      <nav class="navbar">
+     <nav class="navbar"> 
         <ul>
           <div class="title">
             <h1>PIZZA-ME</h1>
@@ -23,38 +23,50 @@
            <li><a href="#location">Location</a></li>
            <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      <nav>
     </div>
   </header>
   <div id="about us">
     <h1>WHY CHOOSE US</h1>
     <div class="paragraph">
     <p>The company was started in the year 2018 to help solve problems such as low quality of pizza being produced in the country</p>
-    <p>we also consired the fact a bout un employment in the country and thus we wanted to be the best pizza restourant in the country with quality products</p>
-    <p>We also thought that it would be better to introduce different types of pizza in our country.</p>
+    <br>we also consired the fact a bout un employment in the country and thus we wanted to be the best pizza restourant in the country with quality products</br>
+    <br>We also thought that it would be better to introduce different types of pizza in our country.</br>
   </div>
   </div>
-  <div class="Services">
+  <div id="Services">
     <h2> OUR  BEST OFFERS</h2>
     <div class="row" id="Services">
-      <div class="col-md-3" id="cheese">
-       <img src="images/cheese.jpg" height="150px" width="300px">
+      <div class="col-md-3" id="mushroom">
+       <img src="images/mushroom.webp" height="150px" width="300px" >
        <p id="overlay"class="text"></p>
+       <h3>mushroom</h3>
     </div>
-  <div class="col-md-3" id="chicken">
-    <img src="images/chicken.jpg" height="150px" width="300px">
+  <div class="col-md-3" id="MozarellaCheese">
+    <img src="images/pizza-cheese-500x500.jpg" height="150px" width="300px">
     <p id="overlay2" class="text"></p>
+    <h3>MozarellaCheese</h3>
   </div>
-  <div class="col-md-3" id="meatza">
-    <img src="images/meatza.jpg" height="150px" width="300px">
+  <div class="col-md-3" id="onion">
+    <img src="images/unnamed.jpg" height="150px" width="300px">
     <p id="overlay3" class="text"></p>
+    <h3>onion</h3>
   </div>
-  <div class="col-md-3" id="mexican green pizza">
-    <img src="images/mexican green_pizza.jpg" height="150px" width="300px">
+  <div class="col-md-3" id="tikkaSausage">
+    <img src="images/DSC_4805111.jpg" height="150px" width="300px">
     <p id="overlay4" class="text"></p>
+    <h3>Tikka Sausage</h3>
+  </div>
+  <div class="col-md-3" id="sausage">
+    <img src="images/206206_3000x2000.jpg" height="150px" width="300px">
+    <p id="overlay5" class="text"></p>
+    <h3>Sausage</h3>
   </div>
   </div>
+  <div class="container-fluid">
+    <div class="jumbotron">
   <h3>PIZZA-ME FORM<br>please enter your details</h3>
+  <div id="details">
      <form action="" id="info">
        <label for="">Make a choice of your pizza</label>
         <select class="form-control" name="size" id="size">
@@ -62,23 +74,80 @@
           <option value="8000">Medium @ ksh 800</option>
           <option value="500">small @ ksh 500</option>
         </select>
+      </div>
     <label for="">Choose your crust type</label>
      <select class="form-control" name="" id="crust">
        <option value="300" name="crust">stuffed crust @ ksh300</option>
        <option value="250" name="crust">stuffed crust @ ksh250</option>
        <option value="200" name="crust">stuffed crust @ ksh200</option>
      </select>
+   
+     <div id="types">
       <label for="">Choose your troopings type</label> <br>
       <input value="200" type="checkbox" id="toppingone">Mushrooms
       <input value="200" type="checkbox" id="toppingone">MozarellaCheese
       <input value="200" type="checkbox" id="toppingone">Onions
       <input value="200" type="checkbox" id="toppingone">Tikka Sausage
       <input value="200" type="checkbox" id="toppingone">Sausage
-
+    </div>
       <label for="">Input Quantity</label>
       <input class="form-control form-group" type="text" id="numberofpizza">
       <button name="button" type="send" id="send" value="Check-Out" onclick="calctotalPrice()">Send</button>
      </form>
+     <div class="Location" id="loca-form">
+
+     </div>
+    </div>
+    </div>
+    <div id="work">
+
+  <tr>
+    <th>order</th>
+    <th>no.</th>
+    <th>price</th>
+  </tr>
+</table>
+<div class="row">
+  <div class="col-md-6">
+    <div class="checkout">
+      <button type="button" class="btn bg-primary" id="complete-order">checkout</button>
+      <button type="button" class="btn bg-primary" id="no">No</button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="delivery">
+      <p>Our pizza are delivered at ksh250<br>Are you ready</p>
+      <button type="button" class="btn bg-primary" id="yes">Yes</button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="Location">
+      <p>Please Enter Your Location</p>
+     <input type="text" id="yourlocation" placeholder="Location"><br>
+     <button type="button" class="btn bg-primary" id="location-send">Send</button> 
+    </div>
+  </div>
+</div>
+
+<div class="row">
+   <div class="payment" id="text">
+
+   </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="noDelivery">
+      <p>Please make your payment first in ksh:</p>
+      <div class="topay1"></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
   <script src="./js/jquery-3.4.1.js"></script>
   <script src="./js/script .js"></script> 
 </body>

@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   background-size:100% 800px ;
 }
+body{
+  text-align: center;
+}
 ul{
   list-style-type: none;
   margin: 0;
@@ -28,16 +31,46 @@ h1{
 .paragraph{
   text-align: center;
 }
-.container{
-    box-shadow: 5px 5px 5px gray;
-    height: 250px;
-    width: 20%;
-    border-radius: 10%; 
-    background-color: black;
+.container-fluid{
+    /* box-shadow: 5px 5px 5px gray; */
+    /* height: 250px; */
+    /* width: 20%; */
+    /* border-radius: 400px;  */
+    /* background-color: black; */
     color:white;
-    text-align: center;
+    /* text-align: center; */
     font-size: larger; 
+    /* margin-top :200px; */
+    /* float: right; */
 }
 h2{
   text-align: center;
 }
+h1{
+  text-align: center;
+  padding-right: 39px;
+}
+#types{
+  text-align: center;
+  
+}
+.jumbotron{
+  /* box-shadow: 5px 5px 5px gray; */
+  height: 550px;
+  width: 50%;
+  /* border-radius:400 px;  */
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-size: smaller;
+  background-image: url("https://bit.ly/2Vyyr5t");
+  float: right;
+}
+/* #loca-form{
+  background-image: url("https://bit.ly/2PAKz1Q");
+  background-color: black;
+  font-size: smaller;
+  height:600px ;
+  width: 550px;
+  float: left;
+} */
