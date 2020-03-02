@@ -32,16 +32,8 @@ h1{
   text-align: center;
 }
 .container-fluid{
-    /* box-shadow: 5px 5px 5px gray; */
-    /* height: 250px; */
-    /* width: 20%; */
-    /* border-radius: 400px;  */
-    /* background-color: black; */
     color:white;
-    /* text-align: center; */
     font-size: larger; 
-    /* margin-top :200px; */
-    /* float: right; */
 }
 h2{
   text-align: center;
@@ -55,10 +47,6 @@ h1{
   
 }
 .jumbo{
-  /* box-shadow: 5px 5px 5px gray; */
-  /* height: 550px; */
-  /* width: 50%; */
-  /* border-radius:400 px;  */
   background-color: black;
   color:black;
   text-align: center;
@@ -66,11 +54,3 @@ h1{
   background-image: url("https://bit.ly/2VDOD5g");
   background-size: cover;
 }
-/* #loca-form{
-  background-image: url("https://bit.ly/2PAKz1Q");
-  background-color: black;
-  font-size: smaller;
-  height:600px ;
-  width: 550px;
-  float: left;
-} */

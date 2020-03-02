@@ -64,20 +64,15 @@ function calctotalPrice(e) {
 
 
 
-// Delivery form inputs and alerts
-
-
 
 $(document).ready(function () {
   $("#delivery").submit(function () {
 
       var name = $("input#name").val();
-      var number = $("input#number").val();
+      var address = $("input#address").val();
       var location = $("input#location").val();
 
-      alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 180/= Thank you for chosing the pizzeria.");
-      // $(this).get(0).reset();
-      //  event.preventDefault();
+      alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 100/= welcome to Pizza-ME .");
   });
   
 });
