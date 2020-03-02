@@ -51,10 +51,10 @@ h1{
   
 }
 .jumbo{
-  background-color: black;
-  color:black;
+  background-color: burlywood;
+  /* color:; */
   text-align: center;
   font-size: smaller;
-  background-image: url("https://bit.ly/2VDOD5g");
+  /* background-image: url("green"); */
   background-size: cover;
 }
