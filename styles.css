@@ -54,17 +54,17 @@ h1{
   text-align: center;
   
 }
-.jumbotron{
+.jumbo{
   /* box-shadow: 5px 5px 5px gray; */
-  height: 550px;
-  width: 50%;
+  /* height: 550px; */
+  /* width: 50%; */
   /* border-radius:400 px;  */
   background-color: black;
-  color:white;
+  color:black;
   text-align: center;
   font-size: smaller;
-  background-image: url("https://bit.ly/2Vyyr5t");
-  float: right;
+  background-image: url("https://bit.ly/2VDOD5g");
+  background-size: cover;
 }
 /* #loca-form{
   background-image: url("https://bit.ly/2PAKz1Q");
