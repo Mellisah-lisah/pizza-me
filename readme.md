@@ -8,13 +8,13 @@ OCHIENG ALICE
 ## Known Bugs;
 * js and jquery are a bit challeging to me
 ## Technologies Use:
- <!-- * Javascript
+ * Javascript
  * Html
  * CSS
  * Bootstrap
  * jQuery
  ## Support and contact details
- aliceochieng25@gmail.com
+ <!-- aliceochieng25@gmail.com
 +254745799525
 ### License
 Licensed under {MIT licence} (LICENCE)
