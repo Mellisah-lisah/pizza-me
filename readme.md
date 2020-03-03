@@ -6,9 +6,9 @@ OCHIENG ALICE
 ## Setup/installation Requirements;
 * There is no set up required for this web.
 ## Known Bugs;
-<!-- * js and jquery are a bit challeging to me
+* js and jquery are a bit challeging to me
 ## Technologies Use:
- * Javascript
+ <!-- * Javascript
  * Html
  * CSS
  * Bootstrap
