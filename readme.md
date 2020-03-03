@@ -5,8 +5,8 @@ The project is all abou creating  a website  for apizza restoraunt.
 OCHIENG ALICE
 ## Setup/installation Requirements;
 * There is no set up required for this web.
-<!-- ## Known Bugs;
-* js and jquery are a bit challeging to me
+## Known Bugs;
+<!-- * js and jquery are a bit challeging to me
 ## Technologies Use:
  * Javascript
  * Html
