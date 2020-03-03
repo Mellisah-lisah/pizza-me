@@ -16,8 +16,8 @@ OCHIENG ALICE
  ## Support and contact details
  aliceochieng25@gmail.com
 +254745799525
-<!-- ### License
+### License
 Licensed under {MIT licence} (LICENCE)
 ###  Link
-To run this project you can use thelink:
+<!-- To run this project you can use thelink:
 https://mellisah-lisah.github.io/studio/ -->
