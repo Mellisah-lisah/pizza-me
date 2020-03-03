@@ -1,8 +1,8 @@
 # THE PIZZA-ME
 ## Description
 The project is all abou creating  a website  for apizza restoraunt.
-<!-- ### AUTHOR:
-OCHIENG ALICE
+### AUTHOR:
+<!-- OCHIENG ALICE
 ## Setup/installation Requirements;
 * There is no set up required for this web.
 ## Known Bugs;
