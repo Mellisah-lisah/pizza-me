@@ -14,9 +14,9 @@ OCHIENG ALICE
  * Bootstrap
  * jQuery
  ## Support and contact details
- <!-- aliceochieng25@gmail.com
+ aliceochieng25@gmail.com
 +254745799525
-### License
+<!-- ### License
 Licensed under {MIT licence} (LICENCE)
 ###  Link
 To run this project you can use thelink:
